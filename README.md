@@ -20,7 +20,7 @@ Faziam parte do desafio o uso de uma falsa API, com o JSON, e a criação das fu
 
 ### **2. Como usar**
 
-Para acessar, clique <a href="" target="_blank">aqui</a>.
+Para acessar, clique <a href="https://danieldmonteiro.github.io/challenge-alura-geek/" target="_blank">aqui</a>.
 
 #
 
