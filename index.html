@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+      integrity="sha512-IJEbgDEF7OeKJRa0MY2PApnyJHRIsgzCveek4ec8VWQ+7KG3ZSKVNYa5xP/Gh0hVP0Mwb+gBsk+GwR3JQGhQNg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>AluraGeek</title>
+
+</head>
+<body>
+    <header class="header__page">
+        <img class="header__image" src="./assets/images/Logo.png" alt="logo-geek">
+    </header>
+
+    <main class="main__page">
+        <section class="productos">
+            <div class="productos__header">
+                <h1 class="productos__titulo-texto">MEUS PRODUTOS:</h1>
+            </div>
+
+           <div class="productos__container" data-list></div>
+        </section>
+
+        <section class="formulario">
+            <div class="formulario__header">
+              <h1 class="formulario__titulo-texto">
+                ADICIONAR PRODUTO:
+              </h1>
+            </div>
+    
+            <form class="formulario__container" data-formulario>
+              <fieldset class="formulario__campo">
+                <input 
+                  name="nombre" 
+                  id="nombre" 
+                  placeholder="nome..."
+                  class="campo__completo" 
+                  type="text"
+                  minlength="5"
+                  maxlength="30"
+                  data-name
+                  required
+                />
+                <span class="mensaje-error"></span>
+              </fieldset>
+    
+              <fieldset class="formulario__campo">
+                <input 
+                  name="precio" 
+                  id="precio"
+                  placeholder="preço..."
+                  class="campo__completo" 
+                  type="text"
+                  minlength="1"
+                  maxlength="5"
+                  data-price
+                  required
+                />
+                <span class="mensaje-error"></span>
+              </fieldset>
+
+              <fieldset class="formulario__campo">
+                <input 
+                  name="imagen" 
+                  id="imagen"
+                  placeholder="imagem..."
+                  class="campo__completo" 
+                  type="text"
+                  minlength="1"
+                  data-img
+                  required
+                />
+                <span class="mensaje-error"></span>
+              </fieldset>
+    
+              <div class="formulario__acciones">
+                <input
+                  value="Enviar"
+                  class="formulario__boton"
+                  id="enviar"
+                  data-boton-enviar
+                  type="submit"
+                />
+                <button type="button" class="formulario__boton-limpiar">Limpar</button>
+                <span class="mensaje-error"></span>
+              </div>
+            </form>
+          </section>
+    </main>
+    <footer class="footer__page">
+        <img class="footer__image" src="./assets/images/Logo.png" alt="logo-geek">
+        <div class="footer__context">
+          <h1 class="footer__titulo-text">DESENVOLVIDO POR DANIEL MONTEIRO</h1>
+          <h2 class="footer__copyrigth-text">ALURA LATAM - 2024</h2>
+        </div>
+    </footer>
+    <script type="module" src="./js/controllers/main.js"></script>
+    <script type="module" src="./js/services/createProduct.js"></script>
+    </body>
+</html>

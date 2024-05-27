@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Playstation 5 Controller - White",
+      "price": 50,
+      "img": "https://m.media-amazon.com/images/I/61IIJGmdmnL._SL1500_.jpg",
+      "description": "Playstation 5 Controller",
+      "category": "Video Games"
+    },
+    {
+      "id": 2,
+      "name": "Playstation 5 Digital",
+      "price": 300,
+      "img": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$",
+      "description": "Playstation 5 console",
+      "category": "Video Games"
+    },
+    {
+      "id": 3,
+      "name": "Nintendo Switch",
+      "price": 250,
+      "img": "https://m.media-amazon.com/images/I/51Gz7IimgoL._AC_SL1024_.jpg",
+      "description": "Nintendo Switch console",
+      "category": "Video Games"
+    },
+    {
+      "id": 4,
+      "name": "PlayStation 5",
+      "price": 500,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/1/1b/PlayStation_5_and_DualSense_with_transparent_background.png",
+      "description": "Next generation gaming console",
+      "category": "Console"
+    },
+    {
+      "id": 5,
+      "name": "Xbox Series X",
+      "price": 400,
+      "img": "https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png",
+      "description": "Powerful gaming console",
+      "category": "Console"
+    },
+    {
+      "id": 6,
+      "name": "Nintendo Gameboy Advance",
+      "price": 200,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Nintendo-Game-Boy-Advance-Purple-FL.jpg",
+      "description": "Hybrid gaming console",
+      "category": "Console"
+    }
+  ]
+}
